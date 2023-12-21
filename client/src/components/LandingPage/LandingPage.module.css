@@ -1,0 +1,43 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.welcome {
+    color: black;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    
+}
+
+.img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    width: 30%;
+}
+
+.text {
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+.button {
+    width: 8rem;
+    height: 3rem;
+    background-color:rgb(248, 194, 56);
+    color: black;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.571);
+}

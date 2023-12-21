@@ -1,0 +1,30 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, auto); /* Dos columnas de igual ancho */
+    grid-column-gap: 5px;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.button {
+    width: 6rem;
+    height: 3rem;
+    background-color:rgb(248, 194, 56);
+    color: black;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.571);
+}
+
+.input {
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    background: rgb(250,239,70);
+    background: linear-gradient(0deg, rgba(250,239,70,1) 0%, rgba(255,255,255,1) 100%);
+    border-radius: 30px;
+    width: 18rem;
+    height: 2.5rem;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.571);
+}
